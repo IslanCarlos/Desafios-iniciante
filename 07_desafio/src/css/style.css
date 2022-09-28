@@ -1,0 +1,11 @@
+body {
+    width: 70%;
+    margin: auto;
+    background-color: black;
+}
+
+h1 {
+    color: #00ff7a;
+    text-shadow: 3px 3px 5px #00ff7a;
+    font-family: sans-serif;
+}

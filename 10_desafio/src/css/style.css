@@ -1,0 +1,204 @@
+body {
+    max-width: 1060px;
+    margin: auto;
+    background-color: #84E1AD ;
+    
+    
+}
+
+.conteudo-mascote{
+    background-color: white;
+    padding: 10px;
+}
+
+.cabecalho {
+    background-color: #15683a;
+    padding: 12px;  
+      
+}
+
+.cabecalho p {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+      
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../10_desafio/idroid.otf);
+}
+
+h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2, h3{
+    font-family: 'idroid';
+    font-size: 32px;
+    color:#1E8449  ;
+    margin-right: 10px;    
+      
+}
+
+
+.cabecalho ul li {
+    display: inline-block;
+    padding: 10px;              /*Espaçamento das opções de menu */ 
+}  
+
+.cabecalho ul li a:hover {
+    font-weight: bold; 
+    color: white;     /* Efeito negrito quando passar o mouse */ 
+}   
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+p a:hover {
+    background-color: #15683a;
+    color: white;
+    text-decoration: underline;
+
+}
+
+h2 {
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;       
+}
+
+h3 {
+    padding: 15px;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;           
+}
+
+p{
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 25px;
+    margin-right: 25px;        
+}
+
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     
+}
+
+.fundo-video {
+    background-color: #15683a;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.flex-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;      
+}
+
+.flex-item1{
+    display: flex;
+    flex: 1;                   /*deixa o tamanaho padrão*/
+    margin-left: 30px;
+}
+
+.flex-item2 {
+    display: flex;
+    flex: 1;                    /*deixa o tamanaho padrão*/
+    margin-left: 30px;           /*Pode tirar se quiser*/
+}
+
+
+ /*Só alterei o <p> para uma div com classe texto*/
+.texto{
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 33px;
+    margin-left: 12px;
+    margin-right: 25px;   
+}
+
+.lista{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: inherit; /*herdou a margin-left da classe acima*/
+}
+
+.listas{
+    padding: 15px;
+}
+
+.título{
+    padding: 15px;
+    font-size: 28px;
+    margin-top: 30px;   
+    margin-bottom: 15px;    
+    background-color: #1E8449;
+    border-radius:10px;
+}
+
+
+
+/*Borda no artigo*/
+.artigo{
+    border-radius:10px;
+    padding: 15px;
+}
+
+
+/*classe que contem o título e o artigo*/
+.teste{
+    background-color:  #84E1AD;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agradecimentos {
+    padding-top: 30px;
+    margin-left: auto;
+    text-align: justify;   
+}
+
+footer{
+    background-color: #15683a;
+    
+}
+
+footer .criado {
+    font-size: 20px;
+    margin-left: 385px;
+    padding-top: 2px;
+}
